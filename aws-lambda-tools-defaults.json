@@ -15,6 +15,5 @@
     "function-timeout"     : 30,
     "template"             : "serverless.template",
     "template-parameters"  : "",
-    "s3-bucket"            : "dansagher",
     "stack-name"           : "MyFunction"
 }
