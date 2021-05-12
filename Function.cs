@@ -184,7 +184,7 @@ namespace ParkingLot
         {
             ScanResponse response;
 
-            using (var client = new AmazonDynamoDBClient(Amazon.RegionEndpoint.EUCentral1))
+            using (var client = new AmazonDynamoDBClient())
             {
                 response = await client.ScanAsync(new ScanRequest(TABLE_NAME));
             }
