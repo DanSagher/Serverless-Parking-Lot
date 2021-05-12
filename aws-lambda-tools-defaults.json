@@ -7,7 +7,6 @@
         "All the command line options for the Lambda command can be specified in this file."
     ],
     "profile"     : "default",
-    "region"      : "eu-central-1",
     "configuration" : "Release",
     "framework"     : "netcoreapp3.1",
     "function-runtime" : "dotnetcore3.1",
@@ -15,5 +14,5 @@
     "function-timeout"     : 30,
     "template"             : "serverless.template",
     "template-parameters"  : "",
-    "stack-name"           : "MyFunction"
+    "stack-name"           : "stackName"
 }
